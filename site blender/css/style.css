@@ -1,0 +1,84 @@
+body {
+	font-family: Arial, Sant-Serif;
+	font-size: 100%;
+	background-color: #9BE564;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+header{
+	padding: 50px 0;
+	background-color: #D7F75B;
+}
+h1, h2{
+	color: #D19C1D;
+	text-align: center;
+}
+nav{
+	background-color: #BFD2BF;
+	border-color: #472C1B;
+	min-height: 100px;
+}
+nav li{
+	float: center;
+	width: 100px;
+}
+nav a{
+	display: block;
+	color: #D19C1D;
+	line-height: 4em;
+	font-weight: bold;
+	text-align: center;
+}
+nav li a:hover{
+	color: #472C1B;
+	background-color: #9BE564;
+}
+p{
+	font-size: 16px;
+	line-height: 1.3;
+	margin-top: 0.1em;
+	margin-bottom: 0;
+	color: #6B2D5C;
+}
+footer{
+	background-color: #F0386B;
+	color: #F8C0C8;
+	padding: 20px 0;
+	margin-top: 30px;
+}
+.img{
+	width: 250px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.multimedia{
+	overflow: auto;
+}
+.multimedia-video {
+	display: inline-block;
+	float: center;
+	padding-left: 300px;
+	padding-right: 20px;
+	width: 80%;
+	box-sizing: border-box;
+}
+form{
+	padding: 15px 0;
+	float: right;
+}
+.form_comment{
+	padding: 15px 0;
+	float: none;
+}
